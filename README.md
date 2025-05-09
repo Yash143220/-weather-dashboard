@@ -2,7 +2,8 @@
 
 A responsive weather dashboard that fetches real-time weather data using the [wttr.in](https://wttr.in/) API. This project is built with HTML, CSS (TailwindCSS), and JavaScript.
 
-![Weather Dashboard Screenshot](screenshot.png)
+<img src="image.png" alt="Weather Dashboard Screenshot" width="500">
+<img src="image1.png" alt="Weather Dashboard Screenshot" width="500">
 
 ## Features
 

@@ -14,7 +14,6 @@ searchBtn.addEventListener("click", async () => {
     try {
         const res = await fetch(`https://wttr.in/${location}?format=j1`);
         const data = await res.json();
-        console.log(data);
         section.scrollIntoView({ behavior: "smooth" });
         updateWeatherUI(data, location);
     } catch (err) {
@@ -33,7 +32,6 @@ document.getElementById("searchBox").addEventListener("keydown", async (event) =
         try {
             const res = await fetch(`https://wttr.in/${location}?format=j1`);
             const data = await res.json();
-            console.log(data);
             section.scrollIntoView({ behavior: "smooth" });
             updateWeatherUI(data, location);
         } catch (err) {

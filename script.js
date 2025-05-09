@@ -1,3 +1,13 @@
+/**
+ * The JavaScript code fetches weather data based on user input and updates the UI with the current
+ * weather information and corresponding weather icon.
+ * @param data - The `data` parameter in the `updateWeatherUI` function is the weather data fetched
+ * from the API in JSON format. It contains information about the current weather conditions, such as
+ * temperature, humidity, wind speed, pressure, sunrise time, sunset time, and more. This data is used
+ * to update
+ * @param location - The `location` parameter in the code refers to the location entered by the user to
+ * fetch weather data. It is used to determine the weather information for that specific location.
+ */
 const searchBtn = document.getElementById("SearchButton");
 const section = document.getElementById("weatherSection");
 
